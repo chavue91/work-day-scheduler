@@ -1,5 +1,8 @@
 $(document).ready(function () {
 
+    // display current date and time to header
+    $("#currentDay").text(moment().format("MMMM Do YYYY, h:mm:ss a"));
+
     // save button on click save usrInpt to local storage
     $(".saveBtn").on("click", function () {
         // get nearby values
@@ -22,7 +25,7 @@ $(document).ready(function () {
     $("#hour16 .userInpt").val(localStorage.getItem("hour16"));
     $("#hour17 .userInpt").val(localStorage.getItem("hour17"));
 
-
+    // ** figure out how to add function and loop to cycle through day
    
    
 });
