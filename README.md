@@ -10,7 +10,7 @@ A simple calendar application that allows the user to save events for each hour 
 (https://github.com/chavue91/work-day-scheduler)
 
 ## images
-![work-day-scheduler]<img src="./assets/images/work-day-scheduler.PNG" style="width: 400px" alt="site screenshot">
+<img src="./assets/images/work-day-scheduler.PNG" style="width: 400px" alt="site screenshot">
 
 
 
