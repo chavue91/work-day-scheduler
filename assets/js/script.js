@@ -11,4 +11,10 @@ $(document).ready(function () {
         localStorage.setItem(time, text);
     })
 
+    // load local storage data
+    $("#hour9 .userInpt").val(localStorage.getItem("hour9"));
+   
+
+   
+   
 });
